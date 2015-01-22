@@ -16,8 +16,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 **2/ Variables**
 
-subject.id: The subject who performed the activity.
-activity.description: The activity performed.
+subject: The subject who performed the activity.
+
+activity: The activity performed by the subject.
 
 Following variables contains the average of each variable with same name in the original dataset, 
 for each activity and each subject.
