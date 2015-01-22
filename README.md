@@ -3,7 +3,7 @@ Getting_Cleaning_Data_Project
 
 Programming Assignments of Coursera.com "Getting and Cleaning Data" course
 
-This file describes how the run_analysis.R script works.
+This file describes how the **run_analysis.R** script works.
 
 1/ Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
