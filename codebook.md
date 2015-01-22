@@ -1,8 +1,8 @@
-Getting and Cleaning Data Course Project CodeBook
+**Getting and Cleaning Data Course Project CodeBook**
 
 This file describes variables, data and transformations performed to clean up the data.
 
-1/ Data
+**1/ Data**
 
 The original data represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
@@ -14,7 +14,7 @@ The data used for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-2/ Variables
+**2/ Variables**
 
 subject.id: The subject who performed the activity.
 activity.description: The activity performed.
@@ -102,16 +102,16 @@ for each activity and each subject.
 * fBodyBodyGyroJerkMag-std()
 * fBodyBodyGyroJerkMag-meanFreq()
 
-3/ Transformations
+**3/ Transformations**
 
-- Created the train and test datasets adding them the subject and the activity.
+- Created the training and test datasets adding them the subject and the activity column.
 
-- Merged the training and the test sets to create one data set.
+- Merged the training and the test sets to create one single data set.
 
-- Set the column names
+- Set the proper column names.
 
 - Extracted only the measurements on the mean and standard deviation for each measurement.
 
-- Set descriptive activity names to name the activities in the data set
+- Set descriptive activity names to name the activities in the data set.
 
 - Created the second, independent tidy data set with the average of each variable for each activity and each subject.
